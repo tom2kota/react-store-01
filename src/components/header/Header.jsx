@@ -1,6 +1,7 @@
 import React from "react";
 import imgLogo from '../../images/logo192.png'
 import {HeaderContainer, LogoContainer, OptionsContainer, OptionsLink} from "./headerStyles";
+import {CartIcon} from "../cart-icon/CartIcon";
 
 export const Header = () => (
     <HeaderContainer>
@@ -29,6 +30,8 @@ export const Header = () => (
             <OptionsLink as='div'>
                 Sign Out
             </OptionsLink>
+
+            <CartIcon/>
 
         </OptionsContainer>
 
