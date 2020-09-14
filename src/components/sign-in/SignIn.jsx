@@ -1,8 +1,7 @@
 import React, {Component} from "react";
-
-import './SignIn.scss'
 import {FormInput} from "../form-input/FormInput";
 import {CustomButton} from "../custom-button/CustomButton";
+import './SignIn.scss'
 
 export class SignIn extends Component {
 
@@ -13,7 +12,7 @@ export class SignIn extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        console.log('submit');
+        console.log('submit with values: ', this.state.email, this.state.password);
         this.setState({email: '', password: ''})
     }
 
