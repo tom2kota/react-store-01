@@ -23,6 +23,10 @@ export const Header = () => (
                 Contact
             </OptionsLink>
 
+            <OptionsLink to='/checkout'>
+                Checkout
+            </OptionsLink>
+
             <OptionsLink to='/signin'>
                 Sign In
             </OptionsLink>

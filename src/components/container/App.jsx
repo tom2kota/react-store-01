@@ -10,6 +10,7 @@ import {ShopPage} from "../../pages/shop/ShopPage";
 import {Header} from "../header/Header";
 import {SignInUp} from "../../pages/sign-in-up/SignInUp";
 import {ContactPage} from "../../pages/contact/ContactPage";
+import CheckoutPage from "../../pages/checkout/CheckoutPage";
 
 export const App = () => (
     <div>
@@ -20,7 +21,7 @@ export const App = () => (
                 <Route path="/shop" component={ShopPage}/>
                 <Route path="/contact" component={ContactPage}/>
                 <Route path="/signin" component={SignInUp}/>
-
+                <Route exact path="/checkout" component={CheckoutPage}/>
                 <Route path="/category_1" component={CategoryOne}/>
                 <Route path="/category_2" component={CategoryTwo}/>
                 <Route path="/category_3" component={CategoryThree}/>
